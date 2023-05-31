@@ -6,8 +6,8 @@ from openbb_terminal.sdk import openbb
 
 pd.options.plotting.backend = "plotly"
 
-FRED_KEY = os.environ.get("FRED_KEY", "REPLACE_ME")
-openbb.keys.fred(key=FRED_KEY, persist=True)
+openbb.keys.fred(key = '081b7a5832068f6abb9f388eca785fd1', persist = True)
+
 
 st.set_page_config(
     layout="wide",
